@@ -12,10 +12,10 @@ Welcome to TP Preview — your source for articles and opportunities.
 
 Explore our latest articles on various topics.
 
-[View Articles →](/articles)
+[View Articles →](articles)
 
 ## Opportunities
 
 Discover new opportunities and announcements.
 
-[View Opportunities →](/opportunities)
+[View Opportunities →](opportunities)

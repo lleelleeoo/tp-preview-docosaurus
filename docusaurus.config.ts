@@ -18,7 +18,8 @@ const config: Config = {
 
   i18n: {
     defaultLocale: 'be',
-    locales: ['be', 'en'],
+    locales: [ 'be' ],
+    path: 'i18n',
     localeConfigs: {
       be: {
         label: 'Беларуская',
@@ -44,7 +45,6 @@ const config: Config = {
         blogDescription: 'Articles',
         blogSidebarCount: 0,
         showReadingTime: false,
-        feedOptions: { type: null },
         onInlineTags: 'warn',
         onInlineAuthors: 'warn',
         onUntruncatedBlogPosts: 'warn',
@@ -60,9 +60,6 @@ const config: Config = {
         blogDescription: 'Opportunities',
         blogSidebarCount: 0,
         showReadingTime: false,
-        feedOptions: {
-          type: null,
-        },
         onInlineTags: 'warn',
         onInlineAuthors: 'warn',
         onUntruncatedBlogPosts: 'warn',
