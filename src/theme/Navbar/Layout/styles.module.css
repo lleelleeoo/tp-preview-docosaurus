@@ -1,0 +1,25 @@
+.navbar {
+  background-color: var(--brand-primary);
+
+  height: unset;
+
+  padding-inline: 120px;
+  padding-top: 32px;
+  padding-bottom: 44px;
+}
+
+.navbarHideable {
+  transition: transform var(--ifm-transition-fast) ease;
+}
+
+.navbarHidden {
+  transform: translate3d(0, calc(-100% - 2px), 0);
+}
+
+
+@media screen and (max-width: 996px) {
+  .navbar {
+    padding-inline: 16px;
+    padding-block: 0;
+  }
+}
