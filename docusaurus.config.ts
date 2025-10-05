@@ -12,6 +12,7 @@ const config: Config = {
 
   organizationName: 'lleelleeoo',
   projectName: 'tp-preview-docosaurus',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
